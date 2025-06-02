@@ -15,7 +15,7 @@ function manifest() {
 		enableInvalid: false,
 		
 		//@NonNull 搜索源名称
-		name: "9x笔趣阁-漫画",
+		name: "漫画",
 
 		//搜索源作者
 		author: "雨夏",
@@ -28,17 +28,14 @@ function manifest() {
 
 		//自述文件网址
 		readmeUrlList: [
-			"https://gitlab.com/ylk2534246654/MyACGSourceRepository/-/raw/master/README.md",
-			"https://www.gitlink.org.cn/api/ylk2534246654/MyACGSourceRepository/raw/README.md?ref=master",
-			"https://github.com/ylk2534246654/MyACGSourceRepository/raw/master/README.md",
+			"https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.min.json",
+			"https://github.moeyy.xyz/https://github.com/keiyoushi/extensions/blob/repo/index.min.json
+",
+			"https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.min.json
+",
 		],
 
-		//搜索源自动同步更新网址
-		syncList: {
-			"Gitlab": "https://gitlab.com/ylk2534246654/MyACGSourceRepository/-/raw/master/sources/9x笔趣阁-漫画.js",
-			"GitLink": "https://www.gitlink.org.cn/api/ylk2534246654/MyACGSourceRepository/raw/sources/9x笔趣阁-漫画.js?ref=master",
-			"Github": "https://github.com/ylk2534246654/MyACGSourceRepository/raw/master/sources/9x笔趣阁-漫画.js",
-		},
+		
 		
 		//最近更新时间
 		lastUpdateTime: 1743325230,
